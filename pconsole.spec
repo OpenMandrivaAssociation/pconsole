@@ -15,6 +15,7 @@ patch1:		%{name}-sh.patch.bz2
 patch2:		%{name}-makefile.patch.bz2
 Requires:	openssh-clients, xterm
 Provides:	%{name}-%{version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 Prefix:		%{_prefix}
 
 %description
