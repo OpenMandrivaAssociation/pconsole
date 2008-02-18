@@ -2,7 +2,7 @@
 %define	version 1.0
 %define release	%mkrel 12
 
-Summary:	Pconsole is a administrative tool for working with clusters nodes
+Summary:	Administrative tool for working with clusters nodes
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
