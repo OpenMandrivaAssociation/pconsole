@@ -1,6 +1,6 @@
 %define name	pconsole
 %define	version 1.0
-%define release	%mkrel 15
+%define release	%mkrel 16
 
 Summary:	Administrative tool for working with clusters nodes
 Name:		%{name}
