@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Networking/Remote access
-URL:		http://www.heiho.net/pconsole/
+URL:		https://www.heiho.net/pconsole/
 Source:		http://www.xs4all.nl/~walterj/pconsole/%{name}-%{version}.tar.gz
 patch0:		%{name}.sh-iconic.bz2
 patch1:		%{name}-sh.patch.bz2
