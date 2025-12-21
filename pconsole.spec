@@ -18,6 +18,11 @@ Provides:	%{name}-%{version}
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 Prefix:		%{_prefix}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 pconsole allows you to connect to each node of your cluster 
 simultaneously, and you can type your administrative commands 
